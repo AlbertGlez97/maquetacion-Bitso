@@ -1,0 +1,5 @@
+/*Contiene todos los elementos visuales y el contenido de la página*/
+.wrapper{
+    max-inline-size: 1140px;
+    margin: auto;
+}

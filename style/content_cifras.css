@@ -1,0 +1,21 @@
+.content__cifras{
+    display: flex;
+    justify-content: space-around;
+    height: 168px;
+    padding:64px 0;
+}
+
+.cifras__seccion{
+    display: flex;
+    flex-direction:column;
+}
+
+.cifras__seccion--num{
+    font-size: 32px;
+    color: var(--green);
+}
+
+.cifras__seccion--info{
+    font-size: 14px;
+    color: var(--dark);
+}

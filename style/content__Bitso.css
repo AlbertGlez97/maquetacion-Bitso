@@ -1,0 +1,27 @@
+.content__Bitso{
+    display: flex;
+    height: 485px;
+}
+
+.content__Bitso--Borders{
+    flex: 1;
+    background-color: var(--light);
+    
+}
+
+.content__Bitso--Exchange{
+    flex: 1;
+    background-color: var(--dark);
+    color: var(--white);
+}
+
+
+.content__Bitso--Info{
+    margin: 69px 64px 0px;
+}
+
+
+.content__Bitso--Info a{
+    text-decoration: none;
+    color: var(--green);
+}

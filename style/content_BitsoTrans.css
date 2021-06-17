@@ -1,0 +1,21 @@
+.content_BitsoTrans{
+    display: flex;
+    margin-top: 60px;
+    background-color: var(--primary);
+    height: 334px;
+    color: white;
+}
+
+.content_BitsoTrans--App{
+    flex: 1;
+}
+
+.content_BitsoTrans--Emojis{
+    flex: 1;
+    background:url("https://assets.bitso.com/static/media/emoji1.d3cc48f3.png")no-repeat  center;
+    background-size: contain;
+}
+
+.content_BitsoTrans--Info{
+    margin: 69px 64px 0px;
+}

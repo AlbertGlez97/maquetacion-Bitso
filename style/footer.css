@@ -1,0 +1,59 @@
+.foote__links{
+    background: var(--white);
+    color: #616161;
+    font-size: 12px;
+    height: 277px;
+    padding: 65px 0px 60px;
+}
+
+.footer__container{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+/*Para que este centrada*/
+.footer__container div{
+    margin: 0 auto;
+}
+
+.footer__container div ul li{
+    line-height: 1.8;
+    list-style: none;
+}
+
+.footer__container div ul li a{
+    text-decoration: none;
+    color: var(--gray);
+}
+
+.footer__container div ul li a:hover{
+    text-decoration:underline var(--dark);
+}
+
+.footer{
+    background: #F6F9FC;
+}
+
+.footer__legalInfo{
+    display: flex;
+    justify-content: space-between;
+    height: 106px;
+    padding-top: 60px;
+    
+}
+
+.footer__legalInfo div{
+    text-align: center;
+}
+
+.footer__legalInfo a{
+    text-decoration: none;
+    color: var(--dark);
+}
+
+.footer__legalInfo a:hover{
+    text-decoration:underline var(--dark);
+}

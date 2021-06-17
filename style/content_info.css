@@ -1,0 +1,9 @@
+.content__info{
+    display: flex;
+    padding-bottom: 64px;
+}
+
+.content__info--details{
+    flex: 1;
+    padding: 0 32px;
+}
